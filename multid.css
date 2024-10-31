@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+.block { display:block; }
+.none { display:hidden; }
+.iblock { display:inline-block; }
+.ohidden { overflow:hidden; }
+.nowrap { white-space:nowrap; }
+.bold { font-weight:bold;}
+.table { display:table; }
+.trow { display:table-row; }
+.tcell { display:table-cell;}
+.tcell.p0 { padding:0px !important}
+.ww100 { width:100%;} 
+.cfix,.clearfix { clear:both;}
+.tcell.label { width:180px;vertical-align: top;}
+.multid .tcell { padding:3px; }
+.ww100 { width:100%; }
+.ww25 { width:25%; }
+.hh100 { height:100%; }
+.h10 { height:10px;}
+.h200 { height:200px;}
+.h100 { height:100px;}
+.mw500 { max-width:500px;}
+.mw800 { max-width:800px;}
+.mh500 { min-height:500px;}
+.border { border:1px solid #ccc;}
+.bgwhite { background:#fff;}
+.bgwarning { background:#a7b1ff45; }
+.p5 { padding:5px;}
+.settinghead { background:#0073aa; padding:5px; }
+.settingbox { background:#fff;padding:5px; }
+.multid_Tabcontainer {}
+.multid_Tabcontainer .SettingLabel { padding:5px; font-weight:bold; }
+.size11 { font-size:11px;}
+.bgwarning2 { background:#a7ffb266;}
+.bgsoftheader { background:#eee; }
+.bgtableheader { background:#0073aa; color:#fff; }
+.left { float:left; }
+.mr20 { margin-right:20px}
+.multid_row { width:100%;}
+.multid_row.b { background:#F5F5F5; }
+.multid_key { width:200px; float:left; padding:2px; box-sizing:border-box;border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;height: 79px; font-weight:bold; }
+.multid_editable { cursor:pointer;}	
+.multid_item { width:200px; float:left; padding:2px;  box-sizing:border-box;border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc; height: 79px;}
+.multid_item textarea { width:100%; display:block; margin:0px; padding:2px; height:100%; border:none; }
+.multid_key textarea { width:100%; display:block; margin:0px; padding:2px;  border:none; }
+.multid_key.hlabel { text-align:center; height:auto; line-height:25px; }
+.multid_item.hlabel { text-align:center; height:auto; line-height:25px;  }
+.button.size12 { font-size:12px;}
+
+@media screen and (min-width:0px) and (max-width: 800px) {
+.nofloat100 { float:none; width:100%; clear:both}
+.tcell.label { width:100px;vertical-align: top;}
+}
